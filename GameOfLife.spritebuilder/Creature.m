@@ -13,7 +13,7 @@
 - (instancetype)initCreature
 {
     //since we made Creature inherit from the CCSpite class, 'super' below refers
-    self = [super initWithImageNamed:@"GameOfLifeAssests/Assets/bubble.png"];
+    self = [super initWithImageNamed:@"GameOfLifeAssets/Assets/bubble.png"];
     
     if(self)
     {

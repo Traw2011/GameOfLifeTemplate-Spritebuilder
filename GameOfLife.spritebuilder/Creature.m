@@ -26,7 +26,7 @@
     //when you create an @property as we did in the .h, an instance variable with a leading underscore is automatically created for you
     _isAlive = newState;
     
-    //'visible" is a property of any class that inherits  from CCNode, so creatures have a visibility property
+    //'visible' is a property of any class that inherits  from CCNode, so creatures have a visibility property
     self.visible = _isAlive;
 }
 
